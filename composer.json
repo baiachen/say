@@ -1,0 +1,23 @@
+{
+    "name": "baiachen/say",
+    "description": "say",
+    "type": "lib",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Baiachen\\Say\\":"src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Baiachen\\Say\\Test\\":"tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+
+    "scripts":{
+      "test":"phpunit"
+    }
+}
